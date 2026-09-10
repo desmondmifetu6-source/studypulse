@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <rect x="12" y="12" width="488" height="488" rx="116" fill="none" stroke="url(#glowGrad)" stroke-width="8" opacity="0.85" />
+
+  <!-- Graduation Mortarboard / Student Cap -->
+  <path d="M256 110 L410 185 L256 260 L102 185 Z" fill="url(#goldGrad)" filter="drop-shadow(0 10px 20px rgba(245,158,11,0.4))" />
+  <polygon points="256,130 380,185 256,240 132,185" fill="#fde68a" opacity="0.4" />
+  
+  <!-- Tassel -->
+  <path d="M160 214 L160 300 C160 310, 140 310, 140 300 L140 204" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" />
+  <circle cx="150" cy="315" r="10" fill="#f59e0b" />
+
+  <!-- Open Book Base -->
+  <path d="M140 310 C180 310 230 295 256 315 C282 295 332 310 372 310 C395 310 405 320 405 340 L405 400 C405 410 395 418 372 418 C332 418 282 400 256 422 C230 400 180 418 140 418 C117 418 107 410 107 400 L107 340 C107 320 117 310 140 310 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="8" />
+
+  <!-- Book Spine Divider -->
+  <line x1="256" y1="315" x2="256" y2="422" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Ghanaian Black Star in Center -->
+  <polygon points="256,335 264,352 282,352 268,363 273,380 256,369 239,380 244,363 230,352 248,352" fill="#000" stroke="#f59e0b" stroke-width="3" />
+</svg>
